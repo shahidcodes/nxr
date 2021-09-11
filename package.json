@@ -1,6 +1,6 @@
 {
   "name": "nxr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -10,11 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w",
     "build": "tsc",
-    "prepublish": "tsc & git push --follow-tags origin main",
-    "prepare-release": "standard-version release-as"
+    "prepare-release": "tsc && git push --follow-tags origin main && standard-version release-as"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api router",
+    "next.js",
+    "router"
+  ],
+  "author": "Shahid Kamal",
   "license": "ISC",
   "devDependencies": {
     "standard-version": "^9.3.1",
