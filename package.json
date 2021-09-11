@@ -1,0 +1,23 @@
+{
+  "name": "nxr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "next": "^11.1.2",
+    "trouter": "^3.2.0"
+  }
+}
